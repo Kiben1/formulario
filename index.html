@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>REGISTRO DE MASCOTA</h1>
+    </header>
+    <section>
+        <form action="" class="formu">
+            <label for="">Nombre Mascota</label>
+            <input type="text" placeholder="Nombre mascota" size="15">
+            <br>
+            <label for="">Nombre del dueño</label>
+            <input type="text" size="30" maxlength="30">
+            <br>
+            <label for="">Direccion del Dueño</label>
+            <input type="text"><br>
+            <label for="">Telefono</label>
+            <input type="text"><br>
+            <label for="">GENERO</label><br>
+            <input type="radio" name="gen">Macho <br>
+            <input type="radio" name="gen">Hembra <br>
+            <label for="">Especie</label>
+            <select name="Especie" id="Especie">
+                <option value="perro">Perro</option>
+                <option value="Gato">Gato</option>
+                <option value="Ave">Ave</option>
+                <option value="Roedor">Roedor</option>
+            </select>
+            <br>
+            <label for="">Raza</label>
+            <select name="Raza" id="">
+                <option value="chapi">chapi</option>
+                <option value="cooker">cooker</option>
+                <option value="huskia">huskia</option>
+                <option value="pastoraleman">pastor aleman</option>
+            </select><br>
+            <label for="">AÑO DE NACIMIENTO</label>
+            <input type="date">
+            <br>
+            <label for="">Descripcion de mascotas</label><br>
+            <textarea name="descrption" id="descripcion" cols="30" rows="10">
+            </textarea>
+            <br>
+            <label for="">Esterilizado</label><br>
+            <input type="radio" name="est">SI <br>
+            <input type="radio" name="est">NO <br>
+            <label for="">CODIGO DE ESTERILIZACION</label>
+            <input type="password" id="password">
+            <br>
+            <input type="submit" value="REGITRAR">
+            <input type="submit" value="LIMPIAR">
+        </form>
+    </section>
+</body>
+</html>
